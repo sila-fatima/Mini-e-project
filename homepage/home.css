@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7fb;
+    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif
+}
+
+/* nav bar started */
+.nvbar {
+    background-color: #f7f7fb;
+}
+
+.logo-img {
+    height: 8vh;
+    width: auto;
+    background: transparent;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.nav-link:hover {
+    color: #7b3cff;
+}
+
+/* nav bar ended */
+
+/* slider started */
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .slider {
+        height: 40vh;
+    }
+}
+
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+/* slider ended */
+
+/* add to cart pannel started */
+
+.cart-pannel {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+
+.cart-content {
+    border-bottom: 2px solid rgb(219, 214, 214);
+    height: 10vh;
+}
+
+.cart-button {
+    position: absolute;
+    bottom: 0;
+    background-color: #7b3cff;
+    width: 100%;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#close-pannel {
+    position: absolute;
+    right: 1px;
+}
+
+.show-pannel {
+    right: 0;
+}
+
+/* cart pannel ended */
+
+/* highly recomended slider started */
+
+.card {
+    margin-top: 5px;
+    width: 23vh;
+    height: auto;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    background-color: #e9e9ee;
+
+
+
+
+
+
+    margin-left: 50px;
+
+
+}
+
+.highly-rated-slider {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    width: 90%;
+}
+
+.card-img {
+    width: 100%;
+    margin-top: 3px;
+    height: 12vh;
+    object-fit: cover;
+}
+
+.cart-price .card-brand {
+    color: rgb(97, 96, 96);
+}
+
+.add-to-cart-button {
+    background-color: #7b3cff;
+    color: white;
+    border: none;
+}
+
+.see-details {
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-top: 3px;
+    border: 2px solid darkgrey;
+    text-decoration: none;
+
+}
+
+.next,
+.prev {
+    border: none;
+    background-color: #e9e9ee;
+    width: 20px;
+    height: 12vh;
+    border-radius: 20px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Product Details | Oxford Sofas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root{--accent:#7b3cff;--muted:#666}
+    body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f7f7fb;color:#222}
+
+    header{
+      background:#fff;
+      padding:16px 24px;
+      box-shadow:0 4px 14px rgba(0,0,0,.05);
+      font-weight:700;
+      font-size:20px;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:32px auto;
+      padding:16px;
+    }
+
+    .product-card{
+      background:#fff;
+      border-radius:10px;
+      padding:24px;
+      display:grid;
+      grid-template-columns:1.1fr 1fr;
+      gap:32px;
+      box-shadow:0 8px 30px rgba(0,0,0,.08);
+    }
+
+    .product-card img{
+      width:100%;
+      height:380px;
+      object-fit:cover;
+      border-radius:10px;
+    }
+
+    h1{margin-top:0}
+    .price{
+      font-size:24px;
+      font-weight:700;
+      color:var(--accent);
+      margin:12px 0;
+    }
+
+    .badge{
+      display:inline-block;
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:13px;
+      background:#efe9ff;
+      color:var(--accent);
+      margin-bottom:8px;
+    }
+
+    .features ul{
+      padding-left:18px;
+      color:var(--muted);
+    }
+
+    .actions{
+      margin-top:24px;
+      display:flex;
+      gap:12px;
+    }
+
+    .btn-primary{
+      background:var(--accent);
+      color:#fff;
+      padding:12px 18px;
+      border-radius:8px;
+      border:0;
+      cursor:pointer;
+    }
+
+    .btn-outline{
+      background:#fff;
+      border:1px solid #ddd;
+      padding:12px 18px;
+      border-radius:8px;
+      cursor:pointer;
+    }
+
+    .desc{
+      color:var(--muted);
+      line-height:1.6;
+    }
+
+    @media(max-width:900px){
+      .product-card{grid-template-columns:1fr}
+      .product-card img{height:260px}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Oxford Sofas
+</header>
+
+<div class="container">
+
+  <div class="product-card">
+
+    <!-- Image -->
+    <img src="https://images.unsplash.com/photo-1549187774-b4ffb0b0d0d2?auto=format&fit=crop&w=1200&q=60"
+         alt="Sofa Product">
+
+    <!-- Details -->
+    <div>
+      <span class="badge">Grand Collection</span>
+      <h1>Grand Cozy Recliner</h1>
+
+      <div class="price">PKR 45,000</div>
+
+      <p class="desc">
+        Experience premium comfort with the Grand Cozy Recliner.
+        Designed for modern homes, it offers superior lumbar support,
+        smooth reclining mechanism and durable leather finish.
+      </p>
+
+      <div class="features">
+        <h3>Key Features</h3>
+        <ul>
+          <li>Material: Genuine Leather</li>
+          <li>Recliner: Yes</li>
+          <li>Seating: Single</li>
+          <li>Warranty: 2 Years</li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <button class="btn-primary">Add to Compare</button>
+        <button class="btn-outline">Download Details</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
