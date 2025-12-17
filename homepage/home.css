@@ -5,7 +5,7 @@
 
 body {
     background-color: #f7f7fb;
-    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif
+    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* nav bar started */
@@ -14,7 +14,7 @@ body {
 }
 
 .logo-img {
-    height: 8vh;
+    height: 10vh;
     width: auto;
     background: transparent;
     object-fit: contain;
@@ -111,19 +111,13 @@ body {
     padding: 12px;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-
     background-color: #e9e9ee;
-
-
-
-
-
-
     margin-left: 50px;
 
 
 }
-
+.card-name a{color: black;
+text-decoration: none;}
 .highly-rated-slider {
     display: flex;
     width: 100%;
@@ -136,13 +130,13 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 
 .card-img {
     width: 100%;
     margin-top: 3px;
-    height: 12vh;
+    height:23vh;
     object-fit: cover;
 }
 
@@ -150,18 +144,14 @@ body {
     color: rgb(97, 96, 96);
 }
 
-.add-to-cart-button {
-    background-color: #7b3cff;
-    color: white;
-    border: none;
-}
+
 
 .see-details {
     text-align: center;
-    color: black;
-    background-color: white;
+    color:white;
+       background-color: #7b3cff;
     margin-top: 3px;
-    border: 2px solid darkgrey;
+   border: none;
     text-decoration: none;
 
 }
