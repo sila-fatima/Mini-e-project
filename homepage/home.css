@@ -5,7 +5,7 @@
 
 body {
     background-color: #f7f7fb;
-    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif
+    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* nav bar started */
@@ -14,7 +14,7 @@ body {
 }
 
 .logo-img {
-    height: 8vh;
+    height: 10vh;
     width: auto;
     background: transparent;
     object-fit: contain;
@@ -111,17 +111,15 @@ body {
     padding: 12px;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-
     background-color: #e9e9ee;
-
-
-
-
-
-
     margin-left: 50px;
 
 
+}
+
+.card-name a {
+    color: black;
+    text-decoration: none;
 }
 
 .highly-rated-slider {
@@ -136,13 +134,13 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 
 .card-img {
     width: 100%;
     margin-top: 3px;
-    height: 12vh;
+    height: 23vh;
     object-fit: cover;
 }
 
@@ -150,18 +148,14 @@ body {
     color: rgb(97, 96, 96);
 }
 
-.add-to-cart-button {
-    background-color: #7b3cff;
-    color: white;
-    border: none;
-}
+
 
 .see-details {
     text-align: center;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #7b3cff;
     margin-top: 3px;
-    border: 2px solid darkgrey;
+    border: none;
     text-decoration: none;
 
 }
@@ -178,3 +172,41 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* highly recomended slider ended*/
+
+/* brand name started */
+.brand-name a {
+    text-decoration: none;
+    color: #7b3cff;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(238, 236, 236);
+    border-radius: 20px;
+}
+
+.brand-name a:hover {
+    background-color: #7b3cff;
+    color: white;
+}
+
+/* brand name ended  */
+
+
+/* footer started */
+
+.footer {
+
+    margin-top: 12vh;
+    background: #2a2a36;
+    height: auto;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*  footer ended */

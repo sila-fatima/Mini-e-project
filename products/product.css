@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7fb;
+    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* nav bar started */
+.nvbar {
+    background-color: #f7f7fb;
+}
+
+.logo-img {
+    height: 10vh;
+    width: auto;
+    background: transparent;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.nav-link:hover {
+    color: #7b3cff;
+}

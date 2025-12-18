@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7fb;
+    font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* nav bar started */
+.nvbar {
+    background-color: #f7f7fb;
+    border-bottom: 2px solid #7b3cff;
+}
+
+.logo-img {
+    height: 10vh;
+    width: auto;
+    background: transparent;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.nav-link:hover {
+    color: #7b3cff;
+}
+
+.content {
+    width: 80%;
+    margin: 8vh auto;
+    height: auto;
+    background-color: white;
+    padding: 60px;
+}
+
+
+.shop-info,
+.user-info {
+    background-color: #f7f7fb;
+    padding: 40px;
+    border: 2px solid #e9e7e7;
+    border-radius: 10px;
+}
+
+.shop-location,
+.user-location {
+    height: 30vh;
+    width: 60%;
+}
+
+button {
+    padding: 6px;
+    color: white;
+    background-color: #7b3cff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.footer {
+
+    margin-top: 12vh;
+    background: #2a2a36;
+    height: auto;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 20px;  
+}
