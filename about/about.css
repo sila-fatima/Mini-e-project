@@ -6,11 +6,14 @@
 body {
     background-color: #f7f7fb;
     font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-/* nav bar started */
 .nvbar {
     background-color: #f7f7fb;
+    box-shadow: 0 10px 30px rgba(123, 60, 255, 0.05);
+    box-sizing: border-box;
+
 }
 
 .logo-img {
@@ -27,4 +30,89 @@ body {
 
 .nav-link:hover {
     color: #7b3cff;
+}
+
+.start {
+    border-top: 4px solid #e9e7e7;
+    background: transparent;
+}
+
+.head1 {
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #7b3cff;
+    margin-top: 50px;
+}
+
+.headpara,
+.head3para {
+    color: rgb(54, 54, 54);
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.head2,
+.head3 {
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #7b3cff;
+    margin-top: 30px;
+}
+
+li {
+    margin-left: 40px;
+    color: rgb(54, 54, 54);
+    margin-top: 10px;
+}
+
+.head4 {
+
+    width: 90%;
+    text-align: center;
+    color: #7b3cff;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.next-section {
+    border-top: 4px solid #e9e7e7;
+    box-sizing: border-box;
+
+
+}
+
+.brand-name {
+    width: 100%;
+   
+    margin-top: 60px;
+}
+
+span {
+
+    background-color: #f9f9f9;
+    color: #7b3cff;
+    border: 1px solid black;
+    background: #f0f0f0;
+    height: 5vh;
+    line-height: 2;
+  
+    text-align: center;
+    font-size: larger;
+
+
+}
+
+
+.footer {
+
+    margin-top: 12vh;
+    background: #2a2a36;
+    height: auto;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 20px;   
 }

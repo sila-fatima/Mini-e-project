@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oxfordsofa.pk</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="contact.CSS">
+    <link rel="stylesheet" href="contact.CSS">
 </head>
+<script src="https://maps.googleapis.com/maps/api/js">
+</script>
+
+
 <body>
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row nvbar">
             <nav class="navbar">
 
                 <div class="navbar-brand ps-4">
-                    <img src="../image/logo.jpg" class="logo-img" alt="">
+                    <img src="../image/logohome.png" class="logo-img" alt="">
 
                 </div>
                 <div>
@@ -31,31 +35,47 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../contactUS/contact.html">Contact Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="../about/about.html">About</a>
                         </li>
-                        <li class="nav-item me-4 " id="cart-opener">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M6 6h15l-1.68 9.39a2 2 0 0 1-1.97 1.61H8.65a2 2 0 0 1-1.97-1.61L5 6z" />
-                                <path d="M6 6L4 2H2" />
-                                <line x1="10" y1="12" x2="10" y2="18" />
-                                <line x1="14" y1="12" x2="14" y2="18" />
-                            </svg>
 
-                        </li>
                 </div>
 
             </nav>
 
         </div>
+        <div class="row content">
+            <div class="col me-lg-4 shop-info">
+
+
+                <h4>Contact Us</h4>
+                <p>OxfordSofa.pk</p>
+                <p>Email: <a style="color: darkblue;" href="mailto:info@oxfordSofa.example">info@oxfordSofa.example</a>
+                </p>
+                <p><b>Address</b>123 Comfort Street, Furniture District</p>
+                <div class="shop-location"></div>
+
+            </div>
+            <div class="col ms-lg-4 ms-md-0 user-info ">
+                <h3>Your Location</h3>
+                <p>Enable location access to help us locate you</p>
+                <button>Share Location</button>
+           
+                <div class="user-location"></div>
+            </div>
         </div>
-        
+        <div class="row footer">
+            <p class="footer-content"> © Oxford Sofas - All Rights Reserved</p>
+
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        <script src="contact.js"></script>
+    <script src="contact.js"></script>
 
 </body>
+
 </html>
