@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Oxfordsofa.pk</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <title>Oxfordsofa.pk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="compare.css">
+    <link rel="stylesheet" href="compare.css">
 </head>
+
 <body>
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row nvbar">
             <nav class="navbar">
 
@@ -50,12 +52,216 @@
             </nav>
 
         </div>
+        <div class="row comparision-page">
+            <div class="col-6">
+                <h1>Choose Product One </h1>
+                <div class="row image"><img src="" alt="" id="product-img"></div>
+                <select name="" id="selected-name" class="row" onchange="productoneslector()">
+                    <option value="Plush Microfiber/Suede 3+1 Sofa Set">Plush Microfiber/Suede 3+1 Sofa Set</option>
+                    <option value="Traditional Rolled-Arm Classic Sofa">Traditional Rolled-Arm Classic Sofa</option>
+                    <option value="Power Lift Massage Recliner ">Power Lift Massage Recliner </option>
+                    <option value="Modern 7-Seater L-Shaped Sectional with Matching Ottoman">Modern 7-Seater L-Shaped
+                        Sectional with Matching Ottoman</option>
+                    <option value="Modern L-Shaped Sectional with Matching Ottoman">Modern L-Shaped Sectional with Matching Ottoman</option>
+                    <option value="Contemporary Minimalist Armchair sofa">Contemporary Minimalist Armchair sofa</option>
+                    <option value="Elite Comfort 3-Seater Power Recliner">Elite Comfort 3-Seater Power Recliner</option>
+                    <option value="The Cloud-Plush">The Cloud-Plush</option>
+                    <option value="Urban Executive Office Sofa">Urban Executive Office Sofa</option>
+                    <option value="The Regal Navy L-Shaped Sectional with Chaise">The Regal Navy L-Shaped Sectional with Chaise</option>
+                    <option value="Tufted Velvet Tuxedo Sofa with Ottoman">Tufted Velvet Tuxedo Sofa with Ottoman</option>
+                    <option value="Traditional Camelback Sofa">Traditional Camelback Sofa</option>
+                    <option value="Osaka Sofa">Osaka Sofa</option>
+                    <option value="Crescent Sofa">Crescent Sofa</option>
+                    <option value="BACKSÄLEN">BACKSÄLEN</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <div class="row details">
+                    <ul id="product-detail"></ul>
+                </div>
+            </div>
+            <div class="col-6">
+
+            </div>
         </div>
-        
+    </div>
+    <script>function productoneslector() {
+            let product_select = document.getElementById("selected-name").value;
+            let product_image = document.getElementById("product-img");
+            let product_detail = document.getElementById("product-detail");
+            if (product_select == "Plush Microfiber/Suede 3+1 Sofa Set") {
+                product_image.src = "../ashleyfurniture img/img1.jpg";
+                product_detail.innerHTML = ` <li>High-back support for enhanced comfort </li>
+                        <li>Oversized, padded armrests</li>
+                        <li>Plush microfiber/suede-like polyester fabric</li>
+                        <li>Stain-resistant and easy to clean</li>`
+            }
+            else if (product_select == "Traditional Rolled-Arm Classic Sofa") {
+                product_image.src = "../ashleyfurniture img/img2.jpg";
+                product_detail.innerHTML = `<li>Traditional rolled-arm design</li>
+                        <li>Clean box-style seat and back cushions</li>
+                        <li>Neutral jute-blend upholstery</li>
+                        <li>Patterned toss pillows for added style</li>`
+
+
+            }
+            else if (product_select == "Power Lift Massage Recliner ") {
+                product_image.src = "../ashleyfurniture img/img3.avif";
+                product_detail.innerHTML = ` <li>Electric-powered lift and recline mechanism</li>
+                        <li>Forward-tilting assist for easy standing</li>
+                        <li>Air Leather or PU faux leather upholstery</li>
+                        <li>Waterproof and low-maintenance surface</li>`
+
+
+            }
+            else if (product_select == "Modern 7-Seater L-Shaped Sectional with Matching Ottoman") {
+                product_image.src = "../ashleyfurniture img/img4.jpg";
+                product_detail.innerHTML = `<li>Low-profile, modern design</li>
+                        <li>Corner-blocked frame for corner or center placement</li>
+                        <li>Imported jute or linen-blend upholstery</li>
+                        <li>Breathable, stain-resistant fabric</li>`
+
+
+            }
+            else if (product_select == "Modern L-Shaped Sectional with Matching Ottoman") {
+                product_image.src = "../ashleyfurniture img/img5.jpg";
+                product_detail.innerHTML = ` <li>Sleek, low-profile contemporary design</li>
+                        <li>Corner-blocked frame for versatile placement</li>
+                        <li>Imported jute or linen-blend upholstery</li>
+                        <li>Breathable and stain-resistant fabric</li>`
+
+
+            }
+            else if (product_select == "Contemporary Minimalist Armchair sofa") {
+                product_image.src = "../ashleyfurniture img/img6.jpg";
+                product_detail.innerHTML = `<li>Streamlined contemporary design</li>
+                        <li>Slim track arms for a modern profile</li>
+                        <li>Padded backrest for upright comfort</li>
+                        <li>Premium textured fabric upholstery (polyester-linen or basketweave)</li>`
+
+
+            }
+            else if (product_select == "Elite Comfort 3-Seater Power Recliner") {
+                product_image.src = "../ashleyfurniture img/img7.jpg";
+                product_detail.innerHTML = `  <li>High-grade Air Leather or top-grain cow leather upholstery</li>
+                        <li>Luxurious, wear-resistant finish</li>
+                        <li>Split-back design with deep horizontal tufting</li>
+                        <li>Enhanced lumbar and neck support</li>`
+
+
+            }
+            else if (product_select == "The Cloud-Plush") {
+                product_image.src = "../ashleyfurniture img/img8.jpeg";
+                product_detail.innerHTML = `  <li>Minimalist contemporary design</li>
+                        <li>Deep, wide-set seat cushions for lounging comfort</li>
+                        <li>Premium velvet or bouclé fabric upholstery</li>
+                        <li>Warp-resistant, durable construction</li>`
+
+
+            }
+            else if (product_select == "Urban Executive Office Sofa") {
+                product_image.src = "../ashleyfurniture img/img9.jpg";
+                product_detail.innerHTML = `  <li>3+2+1 seating configuration</li>
+                        <li>Premium Aire Leather upholstery</li>
+                        <li>Multi-position reclining mechanism</li>
+                        <li>Built-in heating function</li>`
+
+
+            }
+            else if (product_select == "The Regal Navy L-Shaped Sectional with Chaise") {
+                product_image.src = "../ashleyfurniture img/img10.jpg";
+                product_detail.innerHTML = ` <li>L-shaped modular configuration with chaise lounge</li>
+                        <li>Premium navy velvet or high-performance polyester fabric</li>
+                        <li>Fade-resistant and soft upholstery</li>
+                        <li>Modern, low-profile elevated design</li>`
+
+
+            }
+            else if (product_select == "Tufted Velvet Tuxedo Sofa with Ottoman") {
+                product_image.src = "../c&b images/one.png";
+                product_detail.innerHTML = ` <li>Tuxedo-style arms and back at the same height for a clean, structured silhouette</li>
+                        <li>Deep-button tufting for timeless elegance</li>
+                        <li>Premium black velvet upholstery with a soft, luxurious feel</li>
+                        <li>Rich texture that subtly reflects light</li>
+                        <li>Matching tufted ottoman for use as a coffee table or extra seating</li>`
+
+
+            }
+            else if (product_select == "Traditional Camelback Sofa") {
+                product_image.src = "../c&b images/two.jpg";
+                product_detail.innerHTML = ` <li>Traditional 18th-century design with a timeless appeal</li>
+                        <li>Distinctive camelback silhouette with a single or double curved backrest</li>
+                        <li>Center peak in the backrest creates an elegant focal point</li>
+                        <li>High, rolled scrolled arms for a formal look</li>
+                        <li>Single long seat cushion or tight-upholstered seat</li>
+                        <li>Firm, upright seating experience ideal for formal spaces</li>`
+
+
+            }
+            else if (product_select == "Osaka Sofa") {
+                product_image.src = "../c&b images/three.jpg";
+                product_detail.innerHTML = `  <li>Designed by Anders Nørgaard with a light, feminine expression</li>
+                        <li>Inclined armrests that visually open up room space</li>
+                        <li>Tufted seat cushions secured with Velcro for stability</li>
+                        <li>Frame made of solid pine and plywood</li>
+                        <li>High-resilience (HR) foam cushions for supportive, comfortable seating</li>`
+
+
+            }
+            else if (product_select == "Crescent Sofa") {
+                product_image.src = "../c&b images/four.png";
+                product_detail.innerHTML = ` <li>Modern curved silhouette for a soft, flowing look</li>
+                        <li>Breaks away from traditional boxy furniture layouts</li>
+                        <li>Ideal for open living spaces or compact apartments</li>
+                        <li>Sits on slim metal legs for a "floating" appearance</li>
+                        <li>Leg finishes often available in gold, black, or chrome</li>`
+
+
+            }
+            else if (product_select == "BACKSÄLEN") {
+                product_image.src = "../c&b images/five.jpg";
+                product_detail.innerHTML = ` <li>Designed for deep, comfortable lounging</li>
+                        <li>High, wide armrests for added support and comfort</li>
+                        <li>Generous seat depth for curling up and relaxing</li>
+                        <li>Loose-fitting cover for a casual, modern look</li>
+                        <li>Reversible chaise longue for flexible placement</li>`
+
+
+            }
+            else if (product_select == "") {
+                product_image.src = "";
+                product_detail.innerHTML = ``
+
+
+            }
+            else if (product_select == "") {
+                product_image.src = "";
+                product_detail.innerHTML = ``
+
+
+            }
+            else if (product_select == "") {
+                product_image.src = "";
+                product_detail.innerHTML = ``
+
+
+            }
+            else if (product_select == "") {
+                product_image.src = "";
+                product_detail.innerHTML = ``
+
+
+            }
+            else {
+
+            }
+        }</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        <script src="compare.js"></script>
-    
+    <script src="compare.js"></script>
+
 </body>
+
 </html>
