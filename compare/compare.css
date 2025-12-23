@@ -11,6 +11,7 @@ body {
 /* nav bar started */
 .nvbar {
     background-color: #f7f7fb;
+    border-bottom:4px solid #7b3cff;
 }
 
 .logo-img {
@@ -27,4 +28,60 @@ body {
 
 .nav-link:hover {
     color: #7b3cff;
+}
+
+.comparision-page {
+    width: 80%;
+    margin: 8vh auto;
+    height: auto;
+    background-color: white;
+    padding: 60px;
+}
+
+.page1,
+.page2 {
+    background-color: #f7f7fb;
+    padding: 40px;
+    border: 2px solid #e9e7e7;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.name,
+.name2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.image,
+.image2 {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details,
+.details2 {
+    margin-top: 15px;
+}
+
+.footer {
+
+    margin-top: 12vh;
+    background: #2a2a36;
+    height: auto;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
