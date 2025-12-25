@@ -10,8 +10,8 @@ body {
 
 /* nav bar started */
 .nvbar {
-    background-color: #f7f7fb;
-    border-bottom: 4px solid #7b3cff;
+    background-color: #fff;
+     box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
 }
 
 .logo-img {

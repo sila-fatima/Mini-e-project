@@ -6,11 +6,14 @@
 body {
     background-color: #f7f7fb;
     font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 /* nav bar started */
 .nvbar {
-    background-color: #f7f7fb;
+    background-color: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
+
 }
 
 .logo-img {
@@ -27,4 +30,113 @@ body {
 
 .nav-link:hover {
     color: #7b3cff;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+li:hover {
+    background-color: white;
+}
+
+li:hover a {
+    color: #7b3cff;
+}
+
+li {
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+}
+
+.navigation-links {
+    height: 89vh;
+    background-color: #7b3cff;
+}
+
+.card-img {
+    width: 100%;
+    margin-top: 3px;
+    height: 23vh;
+    object-fit: cover;
+}
+
+.card-brand {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(123, 60, 255, 0.8);
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline !important;
+    width: auto !important;
+}
+
+.card-price {
+    color: rgb(63, 63, 63);
+    font-size: x-large;
+}
+
+.card {
+    margin-top: 5px;
+    width: 33vh;
+    height: auto;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    background-color: #e3e3eb;
+}
+
+.card-name a {
+    color: black;
+    text-decoration: none;
+}
+.card-name{height: 8vh;}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.see-more-link {
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 4px solid #e9e7e7;
+    border-radius: 60%;
+}
+
+.see-more-link a {
+    font-size: large;
+    color: #301934;
+    text-decoration: none;
+}
+
+.product-sec {
+    height: 89vh;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.footer {
+
+
+    background: #2a2a36;
+    height: auto;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
