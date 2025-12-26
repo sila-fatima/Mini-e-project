@@ -64,45 +64,6 @@ body {
 }
 
 /* slider ended */
-
-/* add to cart pannel started */
-
-.cart-pannel {
-    position: fixed;
-    top: 0;
-    right: -350px;
-    width: 350px;
-    height: 100%;
-    background-color: white;
-    z-index: 9999;
-}
-
-.cart-content {
-    border-bottom: 2px solid rgb(219, 214, 214);
-    height: 10vh;
-}
-
-.cart-button {
-    position: absolute;
-    bottom: 0;
-    background-color: #7b3cff;
-    width: 96%;
-    border: none;
-    color: white;
-    border-radius: 10px;
-}
-
-#close-pannel {
-    position: absolute;
-    right: 1px;
-}
-
-.show-pannel {
-    right: 0;
-}
-
-/* cart pannel ended */
-
 /* highly recomended slider started */
 
 .card {
