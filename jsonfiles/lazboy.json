@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Zenith Lounger",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 145,000",
+        "image": "../laz boys/laz boys images/img1.jpg",
+        "link":"../laz boys/laz boys webpages/page1.html"
+    },
+{
+        "name": "Summit Slumbe",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 260,000",
+        "image": "../laz boys/laz boys images/img2.webp",
+        "link":"../laz boys/laz boys webpages/page2.html"
+    },{
+        "name": "Vanguard Slate",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 195,000",
+        "image": "../laz boys/laz boys images/img3.jpg",
+        "link":"../laz boys/laz boys webpages/page3.html"
+    },{
+        "name": "Breezy Shoreline",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 245,000",
+        "image": "../laz boys/laz boys images/img4.jpg",
+        "link":"../laz boys/laz boys webpages/page4.html"
+    },{
+        "name": "Meadow Embrace",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 225,000",
+        "image": "../laz boys/laz boys images/img5.jpg",
+        "link":"../laz boys/laz boys webpages/page5.html"
+    },{
+        "name": "Nordic Cradle",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 27,175",
+        "image": "../laz boys/laz boys images/img6.jpg",
+        "link":"../laz boys/laz boys webpages/page6.html"
+    },{
+        "name": "Sylvan Spire",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 135,000",
+        "image": "../laz boys/laz boys images/img7.jpg",
+        "link":"../laz boys/laz boys webpages/page7.html"
+    },{
+        "name": "Luxe Lounger",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 99,000",
+        "image": "../laz boys/laz boys images/img8.jpg",
+        "link":"../laz boys/laz boys webpages/page8.html"
+    },{
+        "name": "The Obsidian Orbit Modular Recline",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 485,000",
+        "image": "../laz boys/laz boys images/img9.webp",
+        "link":"../laz boys/laz boys webpages/page9.html"
+    },{
+        "name": "The Ruby Horizon Modular Wing",
+        "brand": "La‑Z‑Boy",
+        "price": "PKR 375,000",
+        "image": "../laz boys/laz boys images/img10.jpg",
+        "link":"../laz boys/laz boys webpages/page10.html"
+    }]

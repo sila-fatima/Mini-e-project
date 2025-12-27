@@ -1,0 +1,72 @@
+[
+    {
+        "name": "The Coastal Drift Modular Pavilion",
+        "brand": "West Elm",
+        "price": "PKR 350,000 ",
+        "image": "../west elm/west elm img/img1.jpg",
+        "link": "../west elm/west elm webpages/page1.html"
+    },
+    {
+        "name": "The Azure Zenith Mid-Century Muse",
+        "brand": "West Elm",
+        "price": "PKR 115,000",
+        "image": "../west elm/west elm img/img2.jpg",
+        "link": "../west elm/west elm webpages/page2.html"
+    },
+    {
+        "name": "The Ethereal Haven Scandi-Lounge",
+        "brand": "West Elm",
+        "price": "PKR 145,000",
+        "image": "../west elm/west elm img/img3.jpg",
+        "link": "../west elm/west elm webpages/page3.html"
+    },
+    {
+        "name": "The Alabaster Arcs Curved Sectional",
+        "brand": "West Elm",
+        "price": "PKR 285,000",
+        "image": "../west elm/west elm img/img4.jpg",
+        "link": "../west elm/west elm webpages/page4.html"
+    },
+    {
+        "name": "The Sahara Solstice Floating Lounge",
+        "brand": "West Elm",
+        "price": "PKR 320,000 ",
+        "image": "../west elm/west elm img/img5.jpg",
+        "link": "../west elm/west elm webpages/page5.html"
+    },
+    {
+        "name": "The Amber Heritage Box-Frame",
+        "brand": "West Elm",
+        "price": "PKR 185,000",
+        "image": "../west elm/west elm img/img6.jpg",
+        "link": "../west elm/west elm webpages/page6.html"
+    },
+    {
+        "name": "The Obsidian Cloud Modular Sectional",
+        "brand": "West Elm",
+        "price": "PKR 180,000",
+        "image": "../west elm/west elm img/img7.jpg",
+        "link": "../west elm/west elm webpages/page7.html"
+    },
+    {
+        "name": "The Midnight Monolith Modular Lounge",
+        "brand": "West Elm",
+        "price": "PKR 189,000",
+        "image": "../west elm/west elm img/img8.jpg",
+        "link": "../west elm/west elm webpages/page8.html"
+    },
+    {
+        "name": "The Mist Aurora Modular Chaise",
+        "brand": "West Elm",
+        "price": "PKR 95,000 ",
+        "image": "../west elm/west elm img/img9.jpg",
+        "link": "../west elm/west elm webpages/page9.html"
+    },
+    {
+        "name": "The Ivory Drift Urban Duet",
+        "brand": "West Elm",
+        "price": "PKR 98,000",
+        "image": "../west elm/west elm img/img10.jpg",
+        "link": "../west elm/west elm webpages/page10.html"
+    }
+]

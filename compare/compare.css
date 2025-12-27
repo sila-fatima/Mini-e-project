@@ -10,8 +10,8 @@ body {
 
 /* nav bar started */
 .nvbar {
-     background-color: #fff;
-     box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
+    background-color: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
 }
 
 .logo-img {
@@ -76,7 +76,7 @@ img {
 .footer {
 
     margin-top: 12vh;
-    background: #2a2a36;
+    background: #1A0B2E;
     height: auto;
 }
 

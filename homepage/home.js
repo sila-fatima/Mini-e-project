@@ -20,18 +20,6 @@ setInterval(() => {
 }, 4000);
 // slider js ended
 
-// cart js started
-cart = document.querySelector('.cart-pannel');
-let cartOpener = document.getElementById('cart-opener');
-cartOpener.addEventListener('click', () => {
-    cart.classList.add('show-pannel')
-});
-let cartCloser = document.getElementById('close-pannel');
-cartCloser.addEventListener('click', () => {
-    cart.classList.remove('show-pannel')
-});
-// cart js ended
-
 //  our collection Slider Started
 
 let next = document.querySelector('.next');

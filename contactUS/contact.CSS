@@ -11,7 +11,7 @@ body {
 /* nav bar started */
 .nvbar {
     background-color: #fff;
-     box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .05);
 }
 
 .logo-img {
@@ -31,26 +31,39 @@ body {
 }
 
 .content {
-    width: 80%;
-    margin: 8vh auto;
-    height: auto;
-    background-color: white;
+
+    height: 130vh;
+    background-image: url(../image/contactimg-lanczos3.jpg);
     padding: 60px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: center;
+
 }
 
 
-.shop-info,
-.user-info {
-    background-color: #f7f7fb;
-    padding: 40px;
-    border: 2px solid #e9e7e7;
+.shop-info {
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    margin-top: 20vh;
+    margin-right: 0;
+
+
+}
+
+.shop-location {
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+    width: 80%;
+    margin-left: 0;
     border-radius: 10px;
-}
 
-.shop-location,
-.user-location {
-    height: 30vh;
-    width: 60%;
+    border: 20px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -63,14 +76,12 @@ button {
 }
 
 .footer {
-
-    margin-top: 12vh;
-    background: #2a2a36;
+    background: #1A0B2E;
     height: auto;
 }
 
 .footer-content {
     color: white;
     text-align: center;
-    margin-top: 20px;  
+    margin-top: 20px;
 }

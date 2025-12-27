@@ -1,0 +1,72 @@
+[
+    {
+        "name": "The Amber Vault Tufted Sovereign",
+        "brand": "Natuzzi",
+        "price": "PKR 235,000",
+        "image": "../natuzzi/natuzzi sofa img/images.jpg",
+        "link": "../natuzzi/natuzzi webpages/page1.html"
+    },
+    {
+        "name": "The Lumina Cloudscape Sectional",
+        "brand": "Natuzzi",
+        "price": "PKR 350,000",
+        "image": "../natuzzi/natuzzi sofa img/img2.jpeg",
+        "link": "../natuzzi/natuzzi webpages/page2.html"
+    },
+    {
+        "name": "The Sienna Rift Modular Solstice",
+        "brand": "Natuzzi",
+        "price": "PKR 220,000",
+        "image": "../natuzzi/natuzzi sofa img/img3.jpeg",
+        "link": "../natuzzi/natuzzi webpages/page3.html"
+    },
+    {
+        "name": "The Forest Verdant Luxe Collection",
+        "brand": "Natuzzi",
+        "price": "PKR 160,000",
+        "image": "../natuzzi/natuzzi sofa img/img4.jpg",
+        "link": "../natuzzi/natuzzi webpages/page4.html"
+    },
+    {
+        "name": "The Aura Pearl Motion Sectional",
+        "brand": "Natuzzi",
+        "price": "PKR 350,000",
+        "image": "../natuzzi/natuzzi sofa img/img5.jpg",
+        "link": "../natuzzi/natuzzi webpages/page5.html"
+    },
+    {
+        "name": "The Alabaster Throne Motion Suite",
+        "brand": "Natuzzi",
+        "price": "PKR 550,000",
+        "image": "../natuzzi/natuzzi sofa img/img6.jpg",
+        "link": "../natuzzi/natuzzi webpages/page6.html"
+    },
+    {
+        "name": "The Ivory Zenith Tech-Lounge",
+        "brand": "Natuzzi",
+        "price": "PKR 585,000",
+        "image": "../natuzzi/natuzzi sofa img/img7.jpg",
+        "link": "../natuzzi/natuzzi webpages/page7.html"
+    },
+    {
+        "name": "The Ruby Horizon Curved Sectional",
+        "brand": "Natuzzi",
+        "price": "PKR 210,000",
+        "image": "../natuzzi/natuzzi sofa img/img8.webp",
+        "link": "../natuzzi/natuzzi webpages/page8.html"
+    },
+    {
+        "name": "The Charcoal Verticality Modular Sectional",
+        "brand": "Natuzzi",
+        "price": "PKR 195,000",
+        "image": "../natuzzi/natuzzi sofa img/img9.jpg",
+        "link": "../natuzzi/natuzzi webpages/page9.html"
+    },
+    {
+        "name": "The Vanguard Azure Recliner Suite",
+        "brand": "Natuzzi",
+        "price": "PKR 350,000",
+        "image": "../natuzzi/natuzzi sofa img/img10.avif",
+        "link": "../natuzzi/natuzzi webpages/page10.html"
+    }
+]

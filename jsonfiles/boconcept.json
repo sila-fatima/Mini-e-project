@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Zen-Curved Luxury 3-Seater Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 85,000",
+        "image": "../boconcept/bo cocept imges/img1.jpg",
+        "link": "../boconcept/boconcept webpages/page1.html"
+    },
+    {
+        "name": "The Cloud-Minimalist Ivory 3-Seater Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 55,000",
+        "image": "../boconcept/bo cocept imges/img2.webp",
+        "link": "../boconcept/boconcept webpages/page2.html"
+    },
+    {
+        "name": "Contour Luxury Curved Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 110,000",
+        "image": "../boconcept/bo cocept imges/img3.jpg",
+        "link": "../boconcept/boconcept webpages/page3.html"
+    },
+    {
+        "name": "Elite Grand 3-Seater Motion Recliner Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 250,000",
+        "image": "../boconcept/bo cocept imges/img4.jpg",
+        "link": "../boconcept/boconcept webpages/page4.html"
+    },
+    {
+        "name": "Grand 3-Seater Recliner with Console",
+        "brand": "BoConcept",
+        "price": "PKR 165,000",
+        "image": "../boconcept/bo cocept imges/img5.jpg",
+        "link": "../boconcept/boconcept webpages/page5.html"
+    },
+    {
+        "name": "Elite 3-Seater Executive Leather Motion Recliner",
+        "brand": "BoConcept",
+        "price": "PKR 165,000",
+        "image": "../boconcept/bo cocept imges/img6.jpg",
+        "link": "../boconcept/boconcept webpages/page6.html"
+    },
+    {
+        "name": "The Nordic Minimalist Ivory 3-Seater Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 70,000",
+        "image": "../boconcept/bo cocept imges/img7.jpg",
+        "link": "../boconcept/boconcept webpages/page7.html"
+    },
+    {
+        "name": "Indivi Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 450,000",
+        "image": "../boconcept/bo cocept imges/img8.jpg",
+        "link": "../boconcept/boconcept webpages/page8.html"
+    },
+    {
+        "name": "Carmo Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 650,000",
+        "image": "../boconcept/bo cocept imges/img9.jpg",
+        "link": "../boconcept/boconcept webpages/page9.html"
+    },
+    {
+        "name": "Hampton Sofa",
+        "brand": "BoConcept",
+        "price": "PKR 350,000",
+        "image": "../boconcept/bo cocept imges/img10.jpg",
+        "link": "../boconcept/boconcept webpages/page10.html"
+    }
+]

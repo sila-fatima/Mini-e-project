@@ -1,0 +1,63 @@
+[
+    {
+        "name": "IKEA PÄRUP 3-Seater Sofa",
+        "brand": "IKEA",
+        "price": "PKR 145,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea image1.jpg",
+        "link":"../ikea/ikea webpage/page1.html"
+    },
+{
+        "name": "IKEA Landskrona model 1",
+        "brand": "IKEA",
+        "price": "PKR 185,000",
+        "image": "../ikea/ikea-sofa-pictures/ikeaimage2.jpg",
+        "link":"../ikea/ikea webpage/page2.html"
+    },{
+        "name": "IKEA Uppland model 2",
+        "brand": "IKEA",
+        "price": "PKR 235,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea3.jpg",
+        "link":"../ikea/ikea webpage/page3.html"
+    },{
+        "name": "IKEA Landskrona Model 2",
+        "brand": "IKEA",
+        "price": "PKR 185,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea4.jpg",
+        "link":"../ikea/ikea webpage/page4.html"
+    },{
+        "name": "IKEA Klippan",
+        "brand": "IKEA",
+        "price": "PKR 75,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea5.webp",
+        "link":"../ikea/ikea webpage/page5.html"
+    },{
+        "name": "IKEA Ektorp",
+        "brand": "IKEA",
+        "price": "PKR 115,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea6.jpg",
+        "link":"../ikea/ikea webpage/page6.html"
+    },{
+        "name": "IKEA Kivik",
+        "brand": "IKEA",
+        "price": "PKR 135,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea7.jpg",
+        "link":"../ikea/ikea webpage/page7.html"
+    },{
+        "name": "IKEA Jattebo model 1",
+        "brand": "IKEA",
+        "price": "PKR 385,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea8.jpg",
+        "link":"../ikea/ikea webpage/page8.html"
+    },{
+        "name": "IKEA Uppland Model 1",
+        "brand": "IKEA",
+        "price": "PKR 185,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea9.jpg",
+        "link":"../ikea/ikea webpage/page9.html"
+    },{
+        "name": "IKEA Jattebo model 2",
+        "brand": "IKEA",
+        "price": "PKR 220,000",
+        "image": "../ikea/ikea-sofa-pictures/ikea10.jpg",
+        "link":"../ikea/ikea webpage/page10.html"
+    }]

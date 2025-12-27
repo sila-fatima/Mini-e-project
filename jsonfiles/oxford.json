@@ -1,0 +1,72 @@
+[
+    {
+        "name": "The Serenity Sleeper Sofa ",
+        "brand": "Oxford Original",
+        "price": "PKR 120,000",
+        "image": "../oxford original/oxford-sofa-images/picture 1.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page1.html"
+    },
+    {
+        "name": "The Versailles Velvet Chaise",
+        "brand": "Oxford Original",
+        "price": "PKR 45,000",
+        "image": "../oxford original/oxford-sofa-images/picture2.webp",
+        "link": "../oxford original/oxford-sofa-webpages/page2.html"
+    },
+    {
+        "name": "The Nirvana Lounge",
+        "brand": "Oxford Original",
+        "price": "PKR 150,000",
+        "image": "../oxford original/oxford-sofa-images/pic3.webp",
+        "link": "../oxford original/oxford-sofa-webpages/page3.html"
+    },
+    {
+        "name": "The Cumulus Lounge",
+        "brand": "Oxford Original",
+        "price": "PKR 180,000",
+        "image": "../oxford original/oxford-sofa-images/pic4.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page4.html"
+    },
+    {
+        "name": "The Arctic Drift",
+        "brand": "Oxford Original",
+        "price": "PKR 180,000",
+        "image": "../oxford original/oxford-sofa-images/pic5.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page5.html"
+    },
+    {
+        "name": "The Elara Sectional",
+        "brand": "Oxford Original",
+        "price": "PKR 165,000",
+        "image": "../oxford original/oxford-sofa-images/pic6.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page6.html"
+    },
+    {
+        "name": "The Tangerine Peak Futon",
+        "brand": "Oxford Original",
+        "price": "PKR 45,000",
+        "image": "../oxford original/oxford-sofa-images/pic7.avif",
+        "link": "../oxford original/oxford-sofa-webpages/page7.html"
+    },
+    {
+        "name": "The Zenith Tufted Chaise",
+        "brand": "Oxford Original",
+        "price": "PKR 54,000",
+        "image": "../oxford original/oxford-sofa-images/pic8.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page8.html"
+    },
+    {
+        "name": "The Caiden Glamour Lounger",
+        "brand": "Oxford Original",
+        "price": "PKR 45,000",
+        "image": "../oxford original/oxford-sofa-images/pic9.jpg",
+        "link": "../oxford original/oxford-sofa-webpages/page9.html"
+    },
+    {
+        "name": "The Royal Amethyst Settee",
+        "brand": "Oxford Original",
+        "price": "PKR 65,000",
+        "image": "../oxford original/oxford-sofa-images/pic 10.avif",
+        "link": "../oxford original/oxford-sofa-webpages/page10.html"
+    }
+]

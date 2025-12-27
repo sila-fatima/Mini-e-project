@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Plush Microfiber/Suede 3+1 Sofa Set",
+        "brand": "Ashley Furniture",
+        "price": "PKR 120,000",
+        "image": "../ashley furniture/ashleyfurniture img/img1.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page1.html"
+    },
+    {
+        "name": "Traditional Rolled-Arm Classic Sofa",
+        "brand": "Ashley Furniture",
+        "price": "PKR 80,000",
+        "image": "../ashley furniture/ashleyfurniture img/img2.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page2.html"
+    },
+    {
+        "name": "Power Lift Massage Recliner ",
+        "brand": "Ashley Furniture",
+        "price": "PKR 115,000",
+        "image": "../ashley furniture/ashleyfurniture img/img3.avif",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page3.html"
+    },
+    {
+        "name": "Modern 7-Seater L-Shaped Sectional with Matching Ottoman",
+        "brand": "Ashley Furniture",
+        "price": "PKR 135,000",
+        "image": "../ashley furniture/ashleyfurniture img/img4.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page4.html"
+    },
+    {
+        "name": "Contemporary Minimalist Armchair sofa",
+        "brand": "Ashley Furniture",
+        "price": "PKR 30,000",
+        "image": "../ashley furniture/ashleyfurniture img/img6.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page5.html"
+    },
+    {
+        "name": "Elite Comfort 3-Seater Power Recliner",
+        "brand": "Ashley Furniture",
+        "image": "../ashley furniture/ashleyfurniture img/img7.jpg",
+        "price": "PKR 240,000",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page7.html"
+    },
+    {
+        "name": "The Cloud-Plush",
+        "brand": "Ashley Furniture",
+        "price": "PKR 55,000",
+        "image": "../ashley furniture/ashleyfurniture img/img8.jpeg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page8.html"
+    },
+    {
+        "name": "Urban Executive Office Sofa",
+        "brand": "Ashley Furniture",
+        "price": "PKR 125,000",
+        "image": "../ashley furniture/ashleyfurniture img/img9.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page9.html"
+    },
+    {
+        "name": "The Regal Navy L-Shaped Sectional with Chaise",
+        "brand": "Ashley Furniture",
+        "price": "PKR 100,000",
+        "image": "../ashley furniture/ashleyfurniture img/img10.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page10.html"
+    },
+    {
+        "name": "Modern L-Shaped Sectional with Matching Ottoman",
+        "brand": "Ashley Furniture",
+        "price": "PKR 135,000",
+        "image": "../ashley furniture/ashleyfurniture img/img5.jpg",
+        "link":"../ashley furniture/ashleyfurniture-webpages/page6.html"
+    }
+]

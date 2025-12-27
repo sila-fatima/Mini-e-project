@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Tufted Velvet Tuxedo Sofa with Ottoman",
+        "brand": "Crate & Barrel",
+        "price": "PKR 66,000",
+        "image": "../b&c/c&b images/one.png",
+        "link":"../b&c/c&b webpages/page1.html"
+    },
+{
+        "name": "Traditional Camelback Sofa",
+        "brand": "Crate & Barrel",
+        "price": "PKR 110,000",
+        "image": "../b&c/c&b images/two.jpg",
+        "link":"../b&c/c&b webpages/page2.html"
+    },{
+        "name": "Osaka Sofa",
+        "brand": "Crate & Barrel",
+        "price": "PKR 250,000",
+        "image": "../b&c/c&b images/three.jpg",
+        "link":"../b&c/c&b webpages/page3.html"
+    },{
+        "name": "Crescent Sofa",
+        "brand": "Crate & Barrel",
+        "price": "PKR 75,000",
+        "image": "../b&c/c&b images/four.png",
+        "link":"../b&c/c&b webpages/page4.html"
+    },{
+        "name": "BACKSÄLEN",
+        "brand": "Crate & Barrel",
+        "price": "PKR 215,000",
+        "image": "../b&c/c&b images/five.jpg",
+        "link":"../b&c/c&b webpages/page5.html"
+    },{
+        "name": "MORABO",
+        "brand": "Crate & Barrel",
+        "price": "PKR 185,000",
+        "image": "../b&c/c&b images/six.jpg",
+        "link":"../b&c/c&b webpages/page6.html"
+    },{
+        "name": "Orange Fabric Chesterfield Sofa",
+        "brand": "Crate & Barrel",
+        "price": "PKR 78,000",
+        "image": "../b&c/c&b images/seven.webp",
+        "link":"../b&c/c&b webpages/page7.html"
+    },{
+        "name": "Norden Luxe",
+        "brand": "Crate & Barrel",
+        "price": "PKR 95,000",
+        "image": "../b&c/c&b images/eight8.png",
+        "link":"../b&c/c&b webpages/page8.html"
+    },{
+        "name": "Linear Muse",
+        "brand": "Crate & Barrel",
+        "price": "PKR 135,000",
+        "image": "../b&c/c&b images/nine.jpeg",
+        "link":"../b&c/c&b webpages/page9.html"
+    },{
+        "name": "The Loveseat",
+        "brand": "Crate & Barrel",
+        "price": "PKR 135,000",
+        "image": "../b&c/c&b images/ten.jpg",
+        "link":"../b&c/c&b webpages/page10.html"
+    }]
